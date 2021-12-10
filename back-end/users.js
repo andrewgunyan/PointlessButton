@@ -138,7 +138,7 @@ console.log("Create User");
     // send back a 200 OK response, along with the user that was created
     return res.send({
       user: user,
-      clickCount: user.numClicks
+      clickCount: 0
     });
   } catch (error) {
     console.log(error);
