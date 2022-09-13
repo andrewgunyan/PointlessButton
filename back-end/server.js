@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 // connect to the mongodb database
-mongoose.connect('mongodb://localhost:27017/photobomb', {
+mongoose.connect('mongodb://localhost:27017/pointless_button', {
   useUnifiedTopology: true,
   useNewUrlParser: true
 });
