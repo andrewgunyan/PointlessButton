@@ -54,10 +54,6 @@ router.post("/", validUser, upload.single('photo'), async (req, res) => {
   }
 });
 
-
-
-// I'M IN CAPS LOOK AT ME
-// TWO LINES NOTICE M
 router.get("/", validUser, async (req, res) => {
   // return numClicks
   try {
